@@ -34,7 +34,8 @@ target 'zeanniApp_vs1' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
 
   target 'zeanniApp_vs1Tests' do
     inherit! :search_paths
