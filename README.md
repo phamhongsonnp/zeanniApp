@@ -1,6 +1,6 @@
 # clone project
-1. git clone ssh://git@github.com:phamhongsonnp/zeanniApp_vs1.git
-2. cd zeanniApp_vs1
+1. git clone ssh://git@github.com:phamhongsonnp/zeanniApp_vs1.git folderName
+2. cd folderName
 
 # Đổi tên và đổi bundleIdentifier dự án cho phù hợp với dự án của bạn. Làm theo bước sau
 2. run: yarn global add react-native-rename
