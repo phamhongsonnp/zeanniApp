@@ -5,7 +5,7 @@
 # Đổi tên và đổi bundleIdentifier dự án cho phù hợp với dự án của bạn. Làm theo bước sau
 2. run: yarn global add react-native-rename
 3. run: react-native-rename "newName" -b bundleIdentifier
-  \n3.1. VD: react-native-rename "Zeanni App" -b com.junedomingo.zeanniapp
+  <br/>3.1. VD: react-native-rename "Zeanni App" -b com.junedomingo.zeanniapp
 
 4. run: watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && npm cache verify && npm install
 5. run: cd ios
